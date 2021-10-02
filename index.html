@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello</title>
+    <title>First Repo</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+
+            color: white;
+            background: #333;
+        }
+
+        main {
+            display: inline-block;
+
+            margin-top: 100px;
+            padding: 50px;
+
+            background: #444;
+            border-radius: 20px;
+
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        button {
+            /* Size of the font */
+            font-size: 20px;
+
+            /* Space between the text and the borders */
+            padding: 10px 20px;
+
+            /* Colors 🎨 */
+            color: #fff;
+            background-color: #0d6efd;
+
+            /* Rounded corners */
+            border-radius: 8px;
+
+            /* Mouse cursor will be a pointer now 👆  */
+            cursor: pointer;
+
+            /* We don't want some default styling by the browser 🙅‍ */
+            border: none;
+            outline: none;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" placeholder="Podaj liczbe A">
 
-    <input type="text" placeholder="Podaj liczbe B">
+<main>
+    <h1>Hello, World!</h1>
 
-    <button id="btn">Oblicz</button>
+    <button id="btn">Click me!</button>
+</main>
 
-    <script>
-        document.getElementById('btn').onclick = () => alert('Yooo!!!');
+<script>
+  document.getElementById('btn').onclick = () => alert('Yooo!!!');
 
-        console.log('Hello, World!');
-    </script>
+  console.log('Hello, World!');
+</script>
 </body>
 </html>
